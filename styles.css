@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left {
+    flex: 1;
+    text-align: left;
+}
+
+.header-left h1 {
+    margin: 0; /* Reduce space between researcher name and email */
+}
+
+.header-left .email {
+    margin: 5px 0 0; /* Adjust space between researcher name and email */
+    font-size: 0.9em;
+}
+
+.header-left .email a {
+    color: #333;
+    text-decoration: none;
+}
+
+.header-left .email a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    flex: 1;
+    text-align: right;
+}
+
+.header-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-right li {
+    display: inline;
+}
+
+.header-right a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.header-right i {
+    margin-right: 8px;
+}
+
+header nav {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 0; /* Remove padding between header and nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px 0; /* Adjust padding to reduce height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 15px; /* Adjust padding to reduce height */
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+main {
+    padding: 120px 20px 20px 20px; /* Adjusted padding to account for fixed header */
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.researcher-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.contact-info {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0;
+}
+
+.commissions-container {
+    padding: 0 20px;
+}
+
+.commission {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0; /* Reduced height of footer */
+    background-color: #fff;
+    color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Publications Styling */
+#publications ol {
+    list-style: decimal;
+    padding-left: 20px; /* Reduced left margin */
+    margin: 0;
+}
+
+/* Recent News Styling */
+#news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#news li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.publications-year {
+    margin-bottom: 20px;
+}
+
+.publications-year h3 {
+    margin-bottom: 10px;
+}
+
+.publications-year ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.publications-year ol li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.publications-year ol li i {
+    font-style: italic;
+}
+
+.description {
+    margin: 5px 0 10px 0; /* Reduce space between items */
+    font-size: 0.9em;
+    color: #555;
+}
