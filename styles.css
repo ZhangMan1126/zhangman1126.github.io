@@ -212,3 +212,25 @@ footer {
     font-size: 0.9em;
     color: #555;
 }
+
+.announcement-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    font-size: 1em;
+}
+.paper-title {
+    flex: 3;
+    color: #333;
+}
+.conference-name {
+    flex: 2;
+    text-align: center;
+    color: #555;
+}
+.announcement-date {
+    flex: 1;
+    color: #888;
+    text-align: right;
+}
